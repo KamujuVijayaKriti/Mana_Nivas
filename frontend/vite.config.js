@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
+  base: '/Mana_Nivas/',
   plugins: [react()],
   optimizeDeps: {
     force: true,

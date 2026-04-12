@@ -85,7 +85,7 @@ Ensure you have the following installed:
 
 ### Running the Application
 
- frontend and backend servers can be started together or separately using the root scripts:
+You can start the frontend and backend servers together or separately using the root scripts:
 
 - **Start both servers concurrently** (if `concurrently` is configured, or run in separate terminals):
   ```bash
@@ -95,6 +95,9 @@ Ensure you have the following installed:
   # Terminal 2 - Starts the Vite React development server on port 5173
   npm run start:frontend
   ```
+
+Once running, you can view the frontend in your browser, typically at `http://localhost:5173`.
+
 ---
 
 ## ✨ Key Features
@@ -105,3 +108,6 @@ Ensure you have the following installed:
 - **Responsive Design:** Optimized to seamlessly work on desktops, tablets, and mobile devices.
 
 ---
+
+## 📄 License
+This project is licensed under the MIT License.
