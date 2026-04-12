@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const propertySchema = new mongoose.Schema({
   title: String,
@@ -73,7 +74,7 @@ const mockProperties = [
 
 async function seed() {
   try {
-    await mongoose.connect('mongodb://localhost:27017/mananivas');
+    await mongoose.connect(process.env.MONGO_URI);
     await Property.deleteMany({});
     await Property.insertMany(mockProperties);
     console.log('Database seeded successfully!');
