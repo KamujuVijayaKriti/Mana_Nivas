@@ -1,0 +1,17 @@
+const mongoose = require('mongoose');
+
+const UserSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  role: { type: String, enum: ['buyer', 'owner', 'admin'], default: 'buyer' },
+  bio: { type: String },
+  location: { type: String },
+  phone: { type: String },
+  avatarUrl: { type: String },
+  savedPropertyIds: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Property' }]
+}, {
+  timestamps: true
+});
+
+module.exports = mongoose.model('User', UserSchema);

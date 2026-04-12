@@ -1,0 +1,185 @@
+{
+  "_comment": "This file is the central source for all placeholder images used in the application. To change an image for a property or user, you can either: 1) Update the `imageUrl` of an existing entry below. 2) Add a new image entry with a unique `id` and update the corresponding `avatarUrl` or `images` array in the user/property data files (`src/lib/placeholder-data.ts` or `src/lib/team-data.ts`) to use the new `id`. For production use, images should be uploaded via the property form, which saves them to Firebase Storage.",
+  "placeholderImages": [
+    {
+      "id": "avatar-1",
+      "description": "Profile picture of Priya Sharma.",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Profile picture of Rajesh Kumar.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar-admin",
+      "description": "Default administrator avatar.",
+      "imageUrl": "https://images.unsplash.com/photo-1580852300654-71fe4a3e2553?q=80&w=1887&auto=format&fit=crop",
+      "imageHint": "person silhouette"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Portrait of T Senthil Kumar.",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "man professional"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Portrait of K Vijaya Kriti.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Portrait of N Deepthi.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1887&auto=format&fit=crop",
+      "imageHint": "man suit"
+    },
+    {
+      "id": "prop-img-1",
+      "description": "Exterior of a modern apartment.",
+      "imageUrl": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "modern apartment"
+    },
+    {
+      "id": "prop-img-2",
+      "description": "Exterior of a luxury apartment.",
+      "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1974&auto=format&fit=crop",
+      "imageHint": "luxury apartment"
+    },
+    {
+      "id": "prop-img-3",
+      "description": "Exterior of an apartment building.",
+      "imageUrl": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "apartment building"
+    },
+    {
+      "id": "prop-img-4",
+      "description": "Exterior of a spacious individual house.",
+      "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "modern house"
+    },
+    {
+      "id": "prop-img-5",
+      "description": "Exterior of a co-living apartment building.",
+      "imageUrl": "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "modern apartment"
+    },
+    {
+      "id": "prop-img-6",
+      "description": "Exterior of an elegant house.",
+      "imageUrl": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "luxury house"
+    },
+    {
+      "id": "prop-img-7",
+      "description": "Exterior of a condo building.",
+      "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "apartment building"
+    },
+    {
+      "id": "prop-img-8",
+      "description": "Exterior of a charming house.",
+      "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=1965&auto=format&fit=crop",
+      "imageHint": "suburban house"
+    },
+    {
+      "id": "prop-interior-1",
+      "description": "Interior of a modern apartment living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1780&auto=format&fit=crop",
+      "imageHint": "living room"
+    },
+    {
+      "id": "prop-interior-2",
+      "description": "Interior of a modern apartment kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585152225-357ea66c7e97?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "prop-interior-3",
+      "description": "Interior of a luxury flat living area.",
+      "imageUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "luxury interior"
+    },
+    {
+      "id": "prop-interior-4",
+      "description": "Interior of a luxury flat bedroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1615875605825-5eb9bb5c6072?q=80&w=1854&auto=format&fit=crop",
+      "imageHint": "master bedroom"
+    },
+    {
+      "id": "prop-interior-5",
+      "description": "Interior of a cozy flat kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1935&auto=format&fit=crop",
+      "imageHint": "small kitchen"
+    },
+    {
+      "id": "prop-interior-6",
+      "description": "Interior of a cozy flat living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "cozy living"
+    },
+    {
+      "id": "prop-interior-7",
+      "description": "Interior of a spacious house living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "family room"
+    },
+    {
+      "id": "prop-interior-8",
+      "description": "Interior of a spacious house garden view.",
+      "imageUrl": "https://images.unsplash.com/photo-1586396874197-b8fc676a5118?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "backyard garden"
+    },
+    {
+      "id": "prop-interior-9",
+      "description": "Interior of a co-living shared space.",
+      "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "common area"
+    },
+    {
+      "id": "prop-interior-10",
+      "description": "Interior of a co-living private room.",
+      "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "single bedroom"
+    },
+    {
+      "id": "prop-interior-11",
+      "description": "Interior of a luxury villa foyer.",
+      "imageUrl": "https://images.unsplash.com/photo-1617806118233-18e1de247200?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "grand entrance"
+    },
+    {
+      "id": "prop-interior-12",
+      "description": "View of a luxury villa pool.",
+      "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "private pool"
+    },
+    {
+      "id": "prop-interior-13",
+      "description": "Interior of a modern condo living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "condo living"
+    },
+    {
+      "id": "prop-interior-14",
+      "description": "Balcony view from a modern condo.",
+      "imageUrl": "https://images.unsplash.com/photo-1542634241-15dee52458a1?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "city balcony"
+    },
+    {
+      "id": "prop-interior-15",
+      "description": "Interior of a charming house kitchen.",
+      "imageUrl": "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=1854&auto=format&fit=crop",
+      "imageHint": "country kitchen"
+    },
+    {
+      "id": "prop-interior-16",
+      "description": "Interior of a charming house bedroom.",
+      "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=1740&auto=format&fit=crop",
+      "imageHint": "guest bedroom"
+    }
+  ]
+}
