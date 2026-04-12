@@ -1,8 +1,8 @@
-Live At - 
-
 # Mana Nivas - Real Estate Platform
 
 Mana Nivas is a full-stack real estate property management and discovery platform. It connects property owners with potential buyers and renters. It allows users to browse properties, and property owners to list their properties securely. 
+
+Live At - https://kamujuvijayakriti.github.io/Mana_Nivas/
 
 ## 🚀 Tech Stack
 
@@ -85,7 +85,7 @@ Ensure you have the following installed:
 
 ### Running the Application
 
-You can start the frontend and backend servers together or separately using the root scripts:
+ frontend and backend servers can be started together or separately using the root scripts:
 
 - **Start both servers concurrently** (if `concurrently` is configured, or run in separate terminals):
   ```bash
@@ -95,9 +95,6 @@ You can start the frontend and backend servers together or separately using the 
   # Terminal 2 - Starts the Vite React development server on port 5173
   npm run start:frontend
   ```
-
-Once running, you can view the frontend in your browser, typically at `http://localhost:5173`.
-
 ---
 
 ## ✨ Key Features
