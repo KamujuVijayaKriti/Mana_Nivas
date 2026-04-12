@@ -36,7 +36,7 @@ function PropertyCard({
     }
   };
   return <Card className="overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-      <Link href={`/properties/${property.id}`} className="block">
+      <Link to={`/properties/${property.id}`} className="block">
         <CardContent className="p-0">
           <div className="relative">
             <img src={firstImage?.imageUrl || PlaceHolderImages.find(i => i.id === 'prop-img-1')?.imageUrl} alt={property.title} width={600} height={400} className="w-full h-48 object-cover bg-muted"  />
@@ -209,7 +209,7 @@ function GetStartedSection() {
                 </p>
                 <div className="mt-8">
                     <Button size="lg" asChild>
-                        <Link href="/signup">
+                        <Link to="/signup">
                             Get Started Now <ArrowRight className="ml-2 h-5 w-5" />
                         </Link>
                     </Button>
