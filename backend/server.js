@@ -18,6 +18,10 @@ if (!process.env.JWT_SECRET) {
 
 app.use(cors());
 app.use(express.json());
+// Health check endpoint for Docker
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
 
 // Health check endpoint for Docker
 app.get('/health', (req, res) => {

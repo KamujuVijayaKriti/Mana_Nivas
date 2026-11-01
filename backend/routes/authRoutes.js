@@ -26,7 +26,7 @@ router.post('/register', async (req, res) => {
 
     await newUser.save();
 
-    const token = jwt.sign({ id: newUser._id, role: newUser.role }, process.env.JWT_SECRET || 'secretkey', { expiresIn: '1d' });
+    const token = jwt.sign({ id: newUser._id, role: newUser.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
     
     // Do not return password hash
     const userToReturn = { ...newUser._doc };
@@ -52,7 +52,7 @@ router.post('/login', async (req, res) => {
       return res.status(400).json({ message: 'Invalid credentials' });
     }
 
-    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET || 'secretkey', { expiresIn: '1d' });
+    const token = jwt.sign({ id: user._id, role: user.role }, process.env.JWT_SECRET, { expiresIn: '1d' });
     
     const userToReturn = { ...user._doc };
     delete userToReturn.password;
@@ -68,7 +68,7 @@ const authMiddleware = (req, res, next) => {
   const token = req.header('Authorization')?.replace('Bearer ', '');
   if (!token) return res.status(401).json({ message: 'No token, authorization denied' });
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'secretkey');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded;
     next();
   } catch (err) {
@@ -108,3 +108,4 @@ router.post('/save-property/:propertyId', authMiddleware, async (req, res) => {
 })
 
 module.exports = router;
+

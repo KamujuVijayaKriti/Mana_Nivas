@@ -111,7 +111,7 @@ export function PropertyForm({
     const propertyData = {
       title: data.title,
       location: data.location,
-      propertyType: data.propertyType,
+      type: data.propertyType,
       listingType: data.listingType,
       price: data.price,
       beds: data.beds,
